@@ -246,7 +246,7 @@ body {
 .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--dark-theme);
@@ -307,7 +307,7 @@ body {
 .filter-button:hover,
 .filter-button:focus {
     background-color:var(--pressed-state);
-    color: #FFFFFF;
+    color:var(--standart-white);
     cursor: pointer;
 }
 /*====FILTERED MENU PORTFOLIO====*/
@@ -325,7 +325,6 @@ body {
 
 .portfolio-menu-item {
     background-color:var(--standart-white);
-    border-top: none;
 }
 
 
@@ -334,10 +333,11 @@ body {
     padding-bottom: 32px;
     padding-left:16px;
     border: 1px solid var(--accent);
+    border-top: none;
 }
 
 /*===FOOTER====*/
 .footer-accent {
-    color: #F4F4FD;
+    color:var(--light-background);
 }
 
