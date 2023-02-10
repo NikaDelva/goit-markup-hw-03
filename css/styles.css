@@ -187,6 +187,10 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.about-us-menu-item {
+    width: 264px;
+}
 /*====OUR TEAM=====*/
 
 .our-team-section {
@@ -225,6 +229,7 @@ body {
 .content-menu-item {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    background: var(--standart-white);
 }
 .content-menu-item:not(:nth-child(4n)) {
     margin-right: 24px;
@@ -232,21 +237,16 @@ body {
 }
 
 .employee-card {
-    background:var(--standart-white);
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
 
-.employee-card-text {
-    margin-top: 8px;
-}
-
 .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--dark-theme);
@@ -258,7 +258,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;    
     color: var(--main-text-color);
-    width: 264px;
 }
 
 /*===FOOTER===*/
@@ -325,9 +324,7 @@ body {
 }
 
 .portfolio-menu-item {
-    width: calc((100% - 48px) / 3);
-    background-color: #FFFFFF;
-    border: 0.1px solid var(--accent);
+    background-color:var(--standart-white);
     border-top: none;
 }
 
@@ -336,10 +333,7 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left:16px;
-}
-
-.portfolio-text {
-    margin-top: 8px;
+    border: 1px solid var(--accent);
 }
 
 /*===FOOTER====*/
